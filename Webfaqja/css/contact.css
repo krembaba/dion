@@ -1,0 +1,30 @@
+
+
+
+
+
+.navbar {
+    background-color: #535252;
+    overflow: hidden;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.logo img {
+    height: 100px;
+}
+.nav-text {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.nav-text a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    margin: 0 10px;
+}
+.nav-text a:hover {
+    background-color: #555;
+}
