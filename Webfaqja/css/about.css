@@ -1,18 +1,25 @@
-
-
-
+body{
+    background-color: #555;
+    padding: 0;
+    margin: 0;
+    background-image: url(/images/Homepageimg.png);
+    
+}
 
 .navbar {
-    background-color: #535252;
+    background-color: #ffffff;
     overflow: hidden;
     color: white;
     display: flex;
     justify-content: space-between;
     padding: 10px;
 }
+
 .logo img {
     height: 100px;
+    padding-left: 35%;
 }
+
 .nav-text {
     display: flex;
     justify-content: flex-end;
@@ -23,7 +30,47 @@
     text-decoration: none;
     padding: 10px;
     margin: 0 10px;
+    color: black;
+    height: fit-content;
 }
 .nav-text a:hover {
     background-color: #555;
+    backdrop-filter: initial;
+}
+
+.about-section {
+    margin-top: 15%;
+    background-color: rgb(255, 255, 255);
+    padding: 50px 0;
+    margin-bottom: 15%;
+    border: 0lvi;
+}
+
+.about-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.about-container h2 {
+    color: #333;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+
+.about-container p {
+    margin-bottom: 20px;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0% 0px;
+    width: 100%;
+}
+footer p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
 }

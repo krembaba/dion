@@ -1,32 +1,38 @@
-
-
-
-
-
+body{
+    background-color: #555;
+    padding: 0;
+    margin: 0;
+}
 
 .navbar {
-    background-color: #535252;
+    background-color: #ffffff;
     overflow: hidden;
     color: white;
     display: flex;
     justify-content: space-between;
     padding: 10px;
 }
+
 .logo img {
     height: 100px;
+    padding-left: 35%;
 }
+
 .nav-text {
     display: flex;
     justify-content: flex-end;
     align-items: center;
 }
+
 .nav-text a {
-    color: white;
+    color: rgb(253, 248, 248);
     text-decoration: none;
     padding: 10px;
     margin: 0 10px;
+    color: black;
+    height: fit-content;
 }
 .nav-text a:hover {
     background-color: #555;
+    backdrop-filter: initial;
 }
-
