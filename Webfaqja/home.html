@@ -4,9 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/home.css">
-    
+    <link rel="icon" href="./images/logo.ico" type="image/x-icon">
+    <script>
+      function toggleNav() {
+          var nav = document.getElementById("nav-links");
+          nav.style.display = (nav.style.display === "block") ? "none" : "block";
+      }
+    </script>
     <title>Falcao Industries</title>
-    
 </head>
 <body>
   <div class="navbar">
@@ -20,19 +25,26 @@
         <a href="./contact.html">Contact</a>
     </div>    
  </div>
+ 
+ <div class="mobile-nav-button" onclick="toggleNav()">☰</div>
+ <div id="nav-links" class="nav-links">
+   <a href="./home.html">Home</a>
+   <a href="./about.html">About</a>
+   <a href="./projects.html">Projects</a>
+   <a href="./contact.html">Contact</a>
+ </div>
 
   <div class="content-box">
-    <img src="./images/Homepageimg.png" alt="Your Picture" style="max-width: 100%; max-height: 200px;"> <!-- Replace 'your-picture.jpg' with your actual image -->
+    <img src="./images/Homepageimg.png" alt="homepage-picture"> 
     <br>
-    <button onclick="alert('Button 1 clicked')">Button 1</button>
-    <button onclick="alert('Button 2 clicked')">Button 2</button>
+    <a href="./projects.html"><button>Our Projects</button></a>
+    <a href="./about.html"><button>About Us</button></a>
   </div>
   
-  <footer>
-    &copy; 2023 Your Website Name
+  <footer class="footer">
+    <p>Street Shpetim Robaj - Sofali | 10000 Prishtina , Kosova | Phone: +383 44 622 150 / +30 20 563 4824 | 
+     Email: info@falco-industries.com <br>
+     Copyright © 2023 Falco Industries Kosova </p>
   </footer>
-    <body>
+<body>
 </html>
-
-
-

@@ -2,8 +2,9 @@ body{
     background-color: #555;
     padding: 0;
     margin: 0;
-    background-image: url(/images/Homepageimg.png);
-    
+    background-image: url(https://images.squarespace-cdn.com/content/v1/651a564bbd3235089d101f98/1696224855888-D85T652155VUK8LVHN7S/working-around-cranes-pixabay-site-285645_1920-resized.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
 }
 
 .navbar {
@@ -35,16 +36,68 @@ body{
 }
 .nav-text a:hover {
     background-color: #555;
-    backdrop-filter: initial;
+    backdrop-filter:unset;
+}
+
+header{
+    text-align: center;
+    color: #ddd;
+    padding-top: 13%;
+    font-size: 300%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 15px;
 }
 
 .about-section {
-    margin-top: 15%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5vh;
     background-color: rgb(255, 255, 255);
-    padding: 50px 0;
-    margin-bottom: 15%;
-    border: 0lvi;
+    padding: 50px 20px;
+    margin-bottom: 5vh;
+    border: 0;
 }
+
+.content-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.content-left,
+.content-right {
+    flex: 1;
+}
+
+.content-left h2,
+.content-right h2 {
+    color: #333;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+
+.content-left p {
+    margin-bottom: 20px;
+}
+
+.content-left video {
+    width: 90%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.content-right table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.content-right th, .content-right td {
+    border: 1px solid #000000; 
+    padding: 8px; 
+    text-align: left; 
+}
+
 
 .about-container {
     max-width: 800px;
@@ -59,6 +112,13 @@ body{
 
 .about-container p {
     margin-bottom: 20px;
+    
+}
+.about-container video {
+    width: 100%; 
+     border-radius: 10px; 
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
 }
 
 .footer {

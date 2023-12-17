@@ -3,6 +3,9 @@ body{
     padding: 0%;
     margin: 0%;
     padding-right: 0%;
+    background-image: url(https://images.squarespace-cdn.com/content/v1/651a564bbd3235089d101f98/1696224855888-D85T652155VUK8LVHN7S/working-around-cranes-pixabay-site-285645_1920-resized.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
 }
 
 .navbar {
@@ -55,6 +58,10 @@ body{
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     width: 45%;
 }
+.contact-info p{
+    text-align: center;
+    
+}
 .contact-form button{
     background-color: #333;
     
@@ -78,7 +85,7 @@ label {
 
 input,
 textarea {
-    text-align: center;
+    text-align:left;
     padding: 10px;
     margin-bottom: 15px;
     border: 1px solid #ddd;

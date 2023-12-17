@@ -2,6 +2,9 @@ body{
     background-color: #555;
     padding: 0;
     margin: 0;
+    background-image: url(https://images.squarespace-cdn.com/content/v1/651a564bbd3235089d101f98/1696224855888-D85T652155VUK8LVHN7S/working-around-cranes-pixabay-site-285645_1920-resized.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
 }
 
 .navbar {
@@ -35,4 +38,79 @@ body{
 .nav-text a:hover {
     background-color: #555;
     backdrop-filter: initial;
+}
+
+header{
+  text-align: center;
+  color: #ddd;
+  padding-top: 15%;
+  font-size: 300%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.projects {
+  display: flex;
+  justify-content: space-around;
+  background-color: #ddd;
+  padding: 20px;
+  margin-top: 15%;
+  margin-bottom: 15%;
+  backface-visibility: hidden;
+}
+  
+.project1 {
+  margin: 10px;
+  max-width: 600px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+  
+.project1:hover {
+  transform: scale(1.05);
+}
+  
+.project1 img {
+    max-width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+    position: inherit;
+    object-position: left;
+}
+.project1-info {
+  padding: 10px;
+}
+
+.project2-info {
+    padding: 10px;
+}
+.project2 {
+  margin: 10px;
+  max-width: 600px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+.project2:hover {
+  transform: scale(1.05);
+}
+.project2 img {
+  max-width: 100%;
+  height: auto;
+  border-bottom: 1px solid #ddd;
+  position: inherit;
+  object-position: center;
+
+}
+
+.footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: relative;
+  bottom: 0% 0px;
+  width: 100%;
+}
+footer p{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: medium;
 }
